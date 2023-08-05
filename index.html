@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="formulario">
+      <img class="mobileImage" src="assets/images/illustration-sign-up-mobile.svg" alt="image">
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul>
+        <li>
+          <img src="assets/images/icon-list.svg" alt="icon-list">
+          <span>Product discovery and building what matters</span>
+        </li>
+        <li>
+          <img src="assets/images/icon-list.svg" alt="icon-list">
+          <span>Measuring to ensure updates are a success</span>
+        </li>
+        <li>
+          <img src="assets/images/icon-list.svg" alt="icon-list">
+          <span>And much more!</span>
+        </li>
+      </ul>
+
+      <form id="formEmail" action="gravarDados.html">
+        <br>
+        <label>
+          Email address
+          <span class="erro"></span>
+          <input id="inputEmail" name="email" type="text" class="inputBorder" placeholder="email@company.com">
+        </label>
+        <br>
+        <button type="submit">Subscribe to monthly newsletter</button>
+      </form>
+    </div>
+    <div class="desktopImage">
+      <img  src="assets/images/illustration-sign-up-desktop.svg" alt="photo">
+    </div>
+  </div>
+
+  <script src="javascript/main.js"></script>
+</body>
+</html>

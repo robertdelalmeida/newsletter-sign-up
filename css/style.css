@@ -1,0 +1,217 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(234, 29%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mobileImage {
+    display: none;
+}
+
+.container {
+    color: hsl(235, 18%, 26%);
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.container .formulario {
+    width: 330px;
+    height: 500px;
+    margin: 50px 50px 40px 30px;
+}
+
+.container .formulario h1 {
+    font-size: 55px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.container .formulario p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.container .formulario ul li {
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.container .formulario ul li img {
+    margin-right: 15px;
+}
+
+.container .formulario form {
+    margin-top: 40px;
+}
+
+.container .formulario form label {
+    position: relative;
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+}
+
+.container .formulario form .erro {
+    color: red;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 3px;
+}
+
+.container .formulario form input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container .formulario form .inputBorder {
+    border: 1px solid hsl(231, 7%, 60%);
+}
+
+.container .formulario form button {
+    color: white;
+    background-color: hsl(235, 18%, 26%);
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.container .formulario form button:hover {
+    background-image: linear-gradient(to right top, #ff6257, #ff6f4e, #ff7c45, #ff893d, #ff9636);
+    cursor: pointer;
+}
+
+.inputError {
+    border: 1px solid red;
+    background-color: rgb(243, 156, 156);
+    color: red;
+}
+
+
+@media screen and (max-width: 376px) {
+    body {
+        background-color: hsl(234, 29%, 20%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .mobileImage {
+        display: block;
+    }    
+
+    .container {
+        color: hsl(235, 18%, 26%);
+        background-color: white;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container .formulario {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    
+    .container .formulario h1 {
+        font-size: 45px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+        padding-left: 35px;
+    }
+    
+    .container .formulario p {
+        font-size: 18px;
+        margin-bottom: 25px;
+        padding-left: 35px;
+        text-align: start;
+    }
+    
+    .container .formulario ul li {
+        list-style: none;
+        font-size: 16px;
+        margin-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 50px;
+    }
+    
+    .container .formulario ul li img {
+        margin-right: 15px;
+    }
+    
+    .container .formulario form {
+        margin-top: 40px;
+        padding-left: 35px;
+    }
+    
+    .container .formulario form label {
+        position: relative;
+        font-size: 11px;
+        color: black;
+        font-weight: bold;
+
+    }
+    
+    .container .formulario form .erro {
+        color: red;
+        position: absolute;
+        margin-left: 165px;
+        margin-top: 3px;
+    }
+    
+    .container .formulario form input {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 80%;
+        padding: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .container .formulario form .inputBorder {
+        border: 1px solid hsl(231, 7%, 60%);
+    }
+    
+    .container .formulario form button {
+        color: white;
+        background-color: hsl(235, 18%, 26%);
+        padding: 15px;
+        width: 89%;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .container .formulario form button:hover {
+        background-image: linear-gradient(to right top, #ff6257, #ff6f4e, #ff7c45, #ff893d, #ff9636);
+        cursor: pointer;
+    }
+    
+    .inputError {
+        border: 1px solid red;
+        background-color: rgb(243, 156, 156);
+        color: red;
+    }
+
+    .desktopImage {
+        display: none;
+    }
+}
